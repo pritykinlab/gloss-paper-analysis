@@ -1,7 +1,11 @@
 # gloss-paper-analysis
 Companion to Gloss package, holding paper analysis.
 
-The various folders hold code used to produce various results in the paper. The following primarily contain executable *.py files:
+The various folders hold code used to produce various results in the paper. 
+
+`geneset_curation` : This is where code used to collect and preprocess the various genesets in the paper resides.
+
+The following primarily contain executable *.py files:
 
 `ulipstic_gut_files` : For uLIPSTIC gut, code used for bootstrapping and tuning Gloss and baseline regression methods. Also includes all code for bootstrapping over all simulations made over this data subset.
 `ulipstic_lcmv_files` : For uLIPSTIC LCMV Sys and LN, code used for bootstrapping and tuning Gloss and baseline regression methods. Also includes all code for bootstrapping over all simulations made over these subsets.
